@@ -1,0 +1,8 @@
+#importing qrcode module
+import qrcode
+#input the stuff
+a=input('Type something')
+#making qrcode
+d=qrcode.make(a)
+#showing qrcode
+d.show()
